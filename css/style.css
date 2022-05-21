@@ -1,0 +1,18 @@
+/* Google Fonts Typography*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+
+/* CSS variables Default */
+:root {
+
+  font-size: 62.5%;
+  --fs-body: 1.6rem;
+  --ff-roboto: 'Roboto', sans-serif;
+}
+
+/* HTML5 display-role reset for browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
