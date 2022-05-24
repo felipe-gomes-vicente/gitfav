@@ -4,7 +4,9 @@
 
 /* CSS variables Default */
 :root {
-  
+  --primary-white: #FFF;
+  --primary-blue: #065E7C;
+
   font-size: 62.5%;
   --fs-body: 2rem;
   --ff-roboto: 'Roboto', sans-serif;
@@ -17,17 +19,17 @@
   box-sizing: border-box;
 }
 
-
+/* =============== Body ====================== */
 body {
   font-size: 1.6rem;
-  color: #FFF;
+  color: var(--primary-white);
   background-color: #06181C;
 }
 
 body * {
   font-family: var(--ff-roboto);
 }
-
+/* =============== global ====================== */
 .sr-only{
   position: absolute;
   width: 1x;
@@ -48,6 +50,7 @@ body * {
   padding: 2rem;
 }
 
+/* =============== Header ====================== */
 header {
   display: flex;
   align-items: center;
@@ -55,6 +58,7 @@ header {
   margin: 8rem 0;
 }
 
+/* =============== Input & Button Search ====================== */
 .search {
   display: flex;
   align-items: center;
@@ -62,7 +66,7 @@ header {
 
 .search input {
   width: 46rem;
-  color: #FFF;
+  color: var(--primary-white);
   height: 4.8rem;
   font-size: 1.6rem;
   background-color: #2F2F33;
@@ -79,8 +83,8 @@ header {
   height: 4.8rem;
   width: 17rem;
   gap: 0.8rem;
-  color: #FFF;
-  background-color: #065E7C;
+  color: var(--primary-white);
+  background-color: var(--primary-blue);
   border: none;
   border-radius: 0.5rem;
   text-transform: uppercase;
@@ -88,23 +92,24 @@ header {
 }
 
 .search button:hover {
-  background-color: #FFF;
-  color: #065E7C;
+  background-color: var(--primary-white);
+  color: var(--primary-blue);
 }
 
 .search button:hover svg path {
-  fill: #065E7C;
+  fill: var(--primary-blue);
 }
 
+/* =============== Table ====================== */
 table {
   width: 100%;
   font-size: 2rem;
-  color: #FFF;
+  color: var(--primary-white);
   border-collapse: collapse;
 }
 
 table th {
-  background-color: #065E7C;
+  background-color: var(--primary-blue);
   text-align: left;
   padding: 1.5rem;
 }
@@ -138,7 +143,7 @@ td.user {
 
 td.user a {
   text-decoration: none;
-  color: #FFF;  
+  color: var(--primary-white); 
 }
 
 td.user a p {
@@ -167,7 +172,7 @@ td .remove:hover {
   opacity: .5;
 }
 
-
+/* =============== Empty Message ====================== */
 .empty-message {
   width: 100%;
   display: flex;
