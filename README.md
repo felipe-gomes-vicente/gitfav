@@ -1,18 +1,18 @@
 # Github Favorites
 
 <h1 align="center">
-    <img alt="Gif do projeto concluído Github Favorites" title="gif" src="./images/gitfav.gif" />
+    <img alt="Gif of the finished project Github Favorites" title="gif" src="./images/gitfav.gif" />
 </h1>
 
 <br>
 
 ### 💻 Github Favorites
 
-O desafio é construír uma página GitFav para consumir APi do Github e manipular dados ao salvar, exibir em uma tabela e excluir com HTML, Javascript e CSS, foi aplicado Programação orientado a objetos, eventos, classes, herança e polimorfismo.
+Building a GitFav page to consume APi from Github and manipulate data by saving, displaying in a table and deleting with HTML, Javascript and CSS, Object-oriented programming, events, classes, inheritance and polymorphism were applied.
 
-Acesse a página do projeto: [Clique Aqui](https://felipe-gomes-vicente.github.io/gitfav/)
+Watch it in action Deploy: [Click Here](https://felipe-gomes-vicente.github.io/gitfav/)
 
-O que foi feito:
+What was developed:
 
 - Lógica e Algoritmos com Javascript;
 - Consumo de API pública do Github;
@@ -47,57 +47,67 @@ O que foi feito:
 - Estrutura de sistema de arquivos do projeto separado por pasta;
 
 
-Aplicado meu conhecimento do Explorer da Rocketseat conceitos de forma prática nesse projeto, com as aulas:
+I applied my knowledge of the Explorer from Rocketseat concepts in a practical way 
+to this project, with the lessons:
 
-- Conhecendo novos conceitos de HTML e CSS;
-- Avançando no HTML e CSS;
-- Introdução á Programação, Lógica e Algoritmos com Javascript;
-- Avançando na Programação WEB com Javacript;
-- Javascript antes do Framework;
-- Avançando nas Promises;
+- Getting to know new concepts of HTML and CSS;
+- Advancing HTML and CSS;
+- Introduction to Programming, Logic and Algorithms with Javascript;
+- Advancing Programming WEB with Javacript;
+- Javascript before the Framework;
+- Advancing in Promises;
   
 <br />
 
 - [EXPLORER - Rocketseat](https://www.rocketseat.com.br/explorer)
 - [Figma do Desafio - GitFav](https://www.figma.com/file/B5PCSL3rEAoYJro6QFKYtp/%5BDesafios-Explorer%5D-GitFav-(Copy)-(Copy))
 
-## Imagem do Projeto concluído:
- <img alt="Print do desafio GitFav" title=" Landing page" src="./images/gitfav.png" />
+## Image from the final project:
+ <img alt="Print GitFav" title=" Landing page" src="./images/gitfav.png" />
 
  <br />
 
-## 🧪 Tecnologias
+## 🧪 Tools
 
-Aplicação desenvolvida usando as seguintes tecnologias:
+Application developed using the following tools:
 
 - [HTML5](https://www.w3schools.com/html/default.asp)
 - [CSS3](https://www.w3schools.com/css/default.asp)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## 🚀 Iniciar Projeto
+## 🚀 Getting started
 
-Clonar Projeto e acesar pasta e iniciar Live server no Visual Studio Code.
+Clone Project and access folder and start the server it is necessary to have nodeJs
+installed and Visual Studio Code.
 
-### Programas necessários para iniciar projeto
+### Programs needed to Getting started
 
+- [NodeJS](https://nodejs.org/en/)
 - [Live Server (Opcional)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Visual Studio Code - Vscode](https://code.visualstudio.com/)
 
-Clone o projeto e acesso a pasta.
+Clone the project and access the folder
 
 ```bash
 $ git clone https://github.com/felipe-gomes-vicente/gitfav.git
 $ cd gitfav
 ```
 
-## 📝 Licença
+With nodeJs installed start server
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+```bash
+ $ npm install
+ $ npm start
+```
+
+## 📝 License
+
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
 ---
 
 &nbsp;
 
-<p align="center">Feito com 💜 by Felipe Vicente👋</p>
+<p align="center">Done with 💜 by Felipe Vicente👋</p>
 
-- ## Meu LinkedIn - [![Linkedin Badge](https://img.shields.io/badge/-FelipeVicente-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-gomes-vicente/)](https://www.linkedin.com/in/felipe-gomes-vicente/)
+- ## My LinkedIn - [![Linkedin Badge](https://img.shields.io/badge/-FelipeVicente-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-gomes-vicente/)](https://www.linkedin.com/in/felipe-gomes-vicente/)
